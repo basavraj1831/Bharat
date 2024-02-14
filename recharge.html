@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wallet - Recharge</title>
+    <link rel="stylesheet" href="recharge.css">
+</head>
+<body>
+    <header>
+        <h1>BHARAT</h1>
+    </header>
+    <nav>
+        <a href="welcome.html" class="btn">Home</a>
+        <a href="withdrawl.html" class="btn">Withdrawal</a>
+        <a href="wallet.html" class="btn">Wallet</a>
+    </nav>
+    <section>
+        <img src="recharge.jpg" alt="" width="300">
+        <p><b>IMPORTANT NOTE: </b></p>
+        <p>1.Enter The Amount.</p>
+        <p>2.Scan The QR Code.</p>
+        <p>3.Enter The Password.</p>    
+            (<i>Always  Ask  Admin <a href="https://www.instagram.com/basavraj.birajdar.1831/">@basavrajbirajdar1831</a>
+            </i>)<br><br><br>
+        <form id="rechargeForm">
+            <label for="amount"><b>Enter Amount:</b></label>
+            <input type="text" id="amount" name="amount" required><br><br><br>
+            <img src="scanner.jpg" alt="QR Scanner" width="200"><br><br><br>
+            <label for="password"><b>Enter Password:</b></label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Submit" class="btn">
+            <p id="message"></p>
+        </form>
+    </section>
+    <script src="recharge.js"></script>
+</body>
+</html>
